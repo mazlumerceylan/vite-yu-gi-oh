@@ -1,0 +1,43 @@
+
+.card-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(255 255 255);
+}
+
+.total-cards{
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+ 
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background-color: rgb(212 143 56);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card p {
+  margin-top: 0.5rem;
+}
