@@ -1,0 +1,18 @@
+
+.options-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid red;
+  background-color: #fff;
+  appearance: none;
+  cursor: pointer;
+}
