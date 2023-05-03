@@ -18,8 +18,8 @@ export default {
 </script>
 
 <style lang="sass">
- @import './assets/scss/CardList.scss'
- @import './assets/scss/General.scss'
- @import './assets/scss/Header.scss'
+ @import './src/scss/CardList.scss'
+ @import './src/scss/General.scss'
+ @import './src/scss/Header.scss'
 
 </style>
