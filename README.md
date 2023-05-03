@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+# Vite Yu-Gi-Oh
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Un'applicazione web che utilizza Vite, Vue 3 e l'API di Yu-Gi-Oh per visualizzare informazioni sulle carte di Yu-Gi-Oh. L'applicazione mostra una griglia di carte con immagini e nomi, e fornisce il conteggio totale delle carte recuperate dall'API.
 
-## Recommended IDE Setup
+## Caratteristiche
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Realizzato con Vite e Vue 3
+- Utilizza l'API di [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/)
+- Visualizza una griglia di carte con immagini e nomi
+- Mostra il conteggio totale delle carte recuperate dall'API
