@@ -7,8 +7,10 @@ export default {
 
 
 <template>
+  <header>
+    <h1>Yu-Gi-Oh API</h1>
+  </header>
   
-  <h1>Yu-Gi-Oh API</h1>
   
 </template>
 
