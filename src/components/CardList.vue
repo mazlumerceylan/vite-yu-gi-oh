@@ -23,7 +23,6 @@
 <script>
 import axios from 'axios';
 import SearchBar from './SearchBar.vue';
-
 export default {
   components: {
     SearchBar
