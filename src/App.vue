@@ -1,20 +1,20 @@
 <template>
   <div id="app">
     <Header />
-    <OptionsSection />
+    <ArchetypeFilter :archetypes="archetypes" />
     <CardList />
   </div>
 </template>
 
 <script>
 import CardList from './components/CardList.vue';
-import OptionsSection from './components/OptionsSection.vue';
+import ArchetypeFilter from './components/ArchetypeFilter.vue';
 import Header from './components/Header.vue';
 
 export default {
   components: {
     Header,
-    OptionsSection,
+    ArchetypeFilter,
     CardList
   }
 };
@@ -25,5 +25,6 @@ export default {
 @import './src/scss/Header.scss'
 @import './src/scss/OptionsSection.scss'
 @import './src/scss/CardList.scss'
+@import './src/scss/SearchBar.scss'
 
 </style>
